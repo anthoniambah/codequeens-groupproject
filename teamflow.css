@@ -208,3 +208,117 @@ font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
 }
 
+/* Kemi's work */
+
+
+/* This is the beginning of Onoriode's work */
+.integrate{
+  /* display: flex; */
+ 
+  text-align: center;
+  color: #565656;
+  font-family:  "Nunito Sans" sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%;
+  letter-spacing: 0.96px;
+}
+.p{
+  color: var(--yellow);
+  text-align: center;
+  font-family: "Nunito Sans" ,sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%; /* 70.752px */
+  letter-spacing: 0.96px;
+}
+
+.image-dropbox{
+  height: 110px;
+  width: 110px;
+  margin-top: -10px;
+}
+.div-1{
+  padding-left: 350px;
+  padding-right: 350px;
+  display: flex;
+  gap: 2px;
+  justify-items: center;
+  justify-content: space-between;
+}
+.image{
+  height: 80px;
+}
+.button-div{
+  display: flex;
+justify-content: center; 
+align-items: center;
+  
+  
+}
+/* the view all styling */
+.button{
+  align-content: center;
+  border: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--yellow);
+  color: #2C2C2C;
+  font-family: "Nunito Sans" ,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 32.994px */
+}
+/* styling of the second section */
+.section-2{
+  display: flex;
+  padding-top: 30px;
+  width: 1200px;
+  margin: auto;
+  /* padding-left: 190px;
+  padding-right: 190px; */
+}
+
+.text-div{
+  padding-top: 25px;
+  padding-left: 90px;
+}
+/* h4 styling */
+.save-time{
+  color: #4A4A4A;
+  font-family: "Nunito Sans" ,sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%; /* 58.96px */
+  letter-spacing: 1px;
+}
+/* styling of the hr tag */
+.yellow{
+  width: 50px;
+  height: 3px;
+  background:  var(--yellow);
+  
+}   
+/* This is the styling for andrea image */
+.andrea{
+  width: 430px;
+  height: 430px;
+  /* flex-shrink: 0; */
+}
+/* The styling of the text */
+.andrea-text{
+  color: #575757;
+  font-family: "Nunito Sans" ,sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 158.333% */
+  letter-spacing: 0.8px;
+}
+/* This is the end of Onoriode's work */
+
