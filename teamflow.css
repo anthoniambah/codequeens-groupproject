@@ -1,85 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+:root {
+  --yellow: rgba(255, 202, 29, 1);
+}
 
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+header {
+  background-image: url("images/rec.svg");
+  background-repeat: no-repeat;
+  background-size: 880px;
+  background-color: rgba(250, 250, 255, 1);
+  padding: 30px;
 }
 
 .navbar {
-    color: #EEE;
-    font-family: Nunito Sans, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5em 1em;
-    font-family: Nunito Sans;
-    background-color: #4B4AEF;
-
+  color: #eee;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1060px;
+  margin: auto;
+  padding: 0.5em 1em;
 }
 
 .navbar .logo {
-    display: flex;
-    font-weight: 600;
-    align-items: center;
-    color: white;
-    gap: 5px;
-    font-family: Poppins;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar .logo img {
-    width: 22px;
-
-
+  width: 22px;
 }
 
 .navbar .logo span {
-    font-family: Poppins;
-    font-size: 18px;
-
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
 }
 
 .navbar ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 2em;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 0.48px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.48px;
 }
 
 .navbar ul li a .dropdown-icon {
-    width: 10px;
-    color: #FFF;
-    vertical-align: middle;
-    margin-left: 2px;
-
+  width: 10px;
+  color: #fff;
+  vertical-align: middle;
+  margin-left: 2px;
 }
 
 .navbar .auth-buttons {
-    display: flex;
-    gap: 1em;
+  display: flex;
+  gap: 1em;
 }
 
 .navbar .auth-buttons a {
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 20px;
-
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 20px;
 }
 
 .navbar .auth-buttons .login {
-    background: none;
-    color: #757575;
+  background: none;
+  color: #757575;
 }
 
 .navbar .auth-buttons .sign-up {
-    border-radius: 10px;
-    background: #FFCA1D;
-    color: #1F1F1F;
-    padding: 8px 25px;
+  border-radius: 10px;
+  background: var(--yellow);
+  color: #1f1f1f;
+  padding: 8px 25px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: auto;
+  margin-top: 55px;
+}
+
+.header-section1 {
+  font-family: "Nunito Sans", sans-serif;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.header-sec1 {
+  color: rgba(96, 96, 96, 1);
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  width: 190px;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.header-sec2 {
+  letter-spacing: 1.5px;
+  color: white;
+  padding-top: 15px;
+  line-height: 55px;
+  font-size: 45px;
+}
+
+.header-sec3 {
+  width: 50px;
+  height: 4px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 25px;
+  background-color: rgba(58, 218, 217, 1);
+}
+
+.header-sec4 {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  margin-top: 25px;
+}
+
+.header-sec5 {
+  background-color: var(--yellow);
+  border-radius: 4px;
+  border: none;
+  margin-top: 25px;
+  padding: 12px;
+  width: 140px;
+  color: rgba(44, 44, 44, 1);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header-section2 {
+  /* border: 1px solid black; */
+  width: 600px;
+  height: 450px;
+}
+
+.header-sec2-1 {
+  display: flex;
+}
+
+.lucytext {
+  margin-left: -80px;
+}
+
+.header-sec2-2 {
+  display: flex;
+  justify-content: space-around;
 }
