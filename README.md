@@ -1,5 +1,5 @@
 # CodeQueens - TeamFlow
-This is the first project for Team CodeQueens
+This is the first project for Team CodeQueens.
 
 # Steps
 - Fork the Repository
@@ -24,9 +24,14 @@ Thank you for your work, and happy collaborating!
   - Hero - https://github.com/anthoniambah
 
 # Section 1
+
 # Section 2
+- https://github.com/naapire
+
 # Section 3
 # Section 4
+- https://github.com/riode-iwema
+  
 # Section 5
 # Section 6
 # Section 7
