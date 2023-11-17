@@ -209,6 +209,53 @@ font-family: "Nunito Sans", sans-serif;
 }
 
 /* Kemi's work */
+.cover{
+  background: #F4f6f8;
+
+}
+
+.container{
+  display: flex;
+  padding: 30px;
+  gap:30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.set{
+color: #4A4A4A;
+font-family: Nunito Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 147.4%; /* 58.96px */
+letter-spacing: 0.8px;
+padding-left: 80px;
+width: 600px;
+}
+
+.line{
+  padding-left: 80px;
+}
+
+.temp{
+color: #575757;
+font-family: Nunito Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 158.333% */
+letter-spacing: 0.12px;
+padding-left: 80px;
+align-self: center;
+}
+
+.group{
+  height: 400px;
+  width: 400px;
+  padding-left: 110px;
+}
 
 
 /* This is the beginning of Onoriode's work */
