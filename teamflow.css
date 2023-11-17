@@ -164,3 +164,47 @@ header {
   display: flex;
   justify-content: space-around;
 }
+/* comment */
+.development{
+  padding: 10px;
+    margin-top: 35px;
+    /* border: 200px; */
+    font-family: "Nunito Sans", sans-serif;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+}
+
+.two{
+  /* display:block; */
+  /* width: 400px; */
+  padding-top: 200px;
+  padding-left: 100px;
+  
+}
+.features{
+  text-align: center;
+  /* font-weight: bolder; */
+  font-size: 37px;
+}
+.featuresspan{
+  color: var(--yellow)
+  ;
+
+}
+.three{
+  width: 685px;
+/* height: 152px; */
+line-height: 30px;
+letter-spacing: 0.4px;
+font-size: large;
+font-family: "Nunito Sans", sans-serif;
+
+}
+.two h1{
+  font-size: 30px;
+}
+
