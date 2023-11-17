@@ -33,5 +33,7 @@ Thank you for your work, and happy collaborating!
 - https://github.com/riode-iwema
   
 # Section 5
+- https://github.com/TyOyekunle
+
 # Section 6
 # Section 7
