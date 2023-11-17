@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    color: #EEE;
+    font-family: Nunito Sans, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    font-family: Nunito Sans;
+    background-color: #4B4AEF;
+
+}
+
+.navbar .logo {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-family: Poppins;
+}
+
+.navbar .logo img {
+    width: 22px;
+
+
+}
+
+.navbar .logo span {
+    font-family: Poppins;
+    font-size: 18px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.48px;
+}
+
+.navbar ul li a .dropdown-icon {
+    width: 10px;
+    color: #FFF;
+    vertical-align: middle;
+    margin-left: 2px;
+
+}
+
+.navbar .auth-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar .auth-buttons a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+
+}
+
+.navbar .auth-buttons .login {
+    background: none;
+    color: #757575;
+}
+
+.navbar .auth-buttons .sign-up {
+    border-radius: 10px;
+    background: #FFCA1D;
+    color: #1F1F1F;
+    padding: 8px 25px;
+}
