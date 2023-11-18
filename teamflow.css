@@ -488,3 +488,142 @@ p {
   height: 651px;
 }
 /* End of Victoria's work*/
+
+/* Mary's work starts below */
+ .g-div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.g-div .img-div {
+  width: 38%;
+  position: relative;
+}
+
+.g-div .img-div::before {
+  position: absolute;
+  content: '';
+  width: 250px;
+  height: 430px;
+  top: -8px;
+  left: -8px;
+  z-index: -1;
+  background-color: #3ADAD9;
+}
+
+.g-div .img-div img {
+  width: 100%;
+}
+
+.g-div .txt-div {
+  width: 40%;
+  margin-top: -8%;
+}
+
+.g-div .txt-div h3 {
+  color: #4A4A4A;
+  font-family: Nunito Sans;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%; /* 58.96px */
+  letter-spacing: 0.8px;
+}
+
+.g-div .txt-div h3::after{
+  content: '';
+  width: 60px;
+  height: 5px;
+  display: block;
+  background-color: #FFCA1D;
+  margin-top: 10px;
+}
+
+.g-div .txt-div p {
+  color: #575757;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 158.333% */
+  letter-spacing: 0.12px;
+  width: 520px;
+  padding-top: 15px;
+}
+
+.g-div .txt-div button {
+  margin-top: 20px;
+  width: 25%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #FFCA1D;
+}
+
+.img-txt {
+  width: 380px;
+  height: 200px;
+  border-radius: 19.146px;
+  background: #fff;
+  box-shadow: 0px 89.76104px 145.86169px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  right: 720px;
+  margin-top: -130px;
+
+}
+
+.img-txt::before {
+  position: absolute;
+  content: '';
+  width: 250px;
+  height: 100px;
+  top: -100px;
+  left: -59px;
+  z-index: -1;
+  background-color:  #FFCA1D;
+}
+
+.img-txt p {
+  color: #3C405F;
+  padding: 10px;
+  font-size: 18.186px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.404px;
+  width: 340px;
+  padding: 20px;
+}
+
+.img-txt #peter {
+  display: inline;
+  color: #2D3150;
+  font-size: 20.186px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160.687%; /* 32.437px */
+  letter-spacing: 0.404px;
+}
+
+.img-txt #cs {
+  display: inline;
+  color: #9C9FBB;
+  font-size: 19.186px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.687%; /* 32.437px */
+  letter-spacing: 0.404px;
+}
+
+.svg-img {
+  width: 320px;
+  margin: auto;
+  margin-top: 40px;
+  /* position: relative; */
+  z-index: -1;
+} 
