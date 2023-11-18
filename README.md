@@ -20,20 +20,26 @@ Thank you for your work, and happy collaborating!
 
 # Team roles
 # Header
-  - Navbar - https://github.com/OdionAkhes
-  - Hero - https://github.com/anthoniambah
+  - Navbar - [Odion Akhetuamhen](https://github.com/OdionAkhes)
+  - Hero - [Anthonia Mbah](https://github.com/anthoniambah)
 
 # Section 1
-
+- [Jochebed Ibrahim](https://github.com/Mishjay)
+  
 # Section 2
-- https://github.com/naapire
+- [Vida Naapire](https://github.com/naapire)
 
 # Section 3
+- [Oluwakemi Olorunmaiye](https://github.com/Maiye123)
+
 # Section 4
-- https://github.com/riode-iwema
+- [Onoriode Iwema](https://github.com/riode-iwema)
   
 # Section 5
-- https://github.com/TyOyekunle
+- [Victoria Oyekunle](https://github.com/TyOyekunle)
 
 # Section 6
-# Section 7
+- [Nnenwogo Nwanja](https://github.com/NneMary)
+
+# Section 7 & Footer
+- [Sumayyah Muhibudeen](https://github.com/Kyikyelormor)
