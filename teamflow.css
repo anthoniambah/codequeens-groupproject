@@ -14,6 +14,7 @@ header {
   padding: 30px;
 }
 
+/* This is the beginning of Odion's work */
 .navbar {
   color: #eee;
   font-family: "Nunito Sans", sans-serif;
@@ -85,7 +86,9 @@ header {
   color: #1f1f1f;
   padding: 8px 25px;
 }
+/* This is the end of Odion's work */
 
+/* This is the beginning of Anthonia's work */
 .header-section {
   display: flex;
   justify-content: space-between;
@@ -164,29 +167,29 @@ header {
   display: flex;
   justify-content: space-around;
 }
-/* comment */
+/* This is the end of Anthonia's work */
 
+/* This is the beginning of Jochebed's work */
 .text-container {
-  font-family: Nunito Sans;
-  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
   justify-content: space-between;
   display: flex;
-  width: 1200px;
+  width: 1100px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
-.text {
-  font-size: 20px;
+.text p {
+  font-size: 17px;
 }
 
 .text hr {
   width: 40px;
   height: 3px;
   background-color: var(--yellow);
-  /* top: 10px; */
   border: none;
-  /* margin-left: -8px; */
+  border-radius: 2px;
+  margin-left: 0px;
 }
 
 .text-image {
@@ -197,9 +200,9 @@ header {
 
 .service-text {
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   font-family: Nunito Sans, sans-serif;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .can-do {
@@ -208,127 +211,139 @@ header {
 .services {
   color: #585858;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
-  margin-top: 30px;
-  width: 1100px;
+  margin-top: 50px;
+  width: 1000px;
   padding: 10px;
   font-family: Nunito Sans, sans-serif;
 }
 
 .business {
   text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  width: 300px;
 }
 
-.business h3 {
+.business h4 {
   color: #2b3377;
 }
 
 .financial {
   text-align: center;
+  padding: 20px;
+  width: 350px;
 }
 
-.financial h3 {
+.financial h4 {
   color: #2b3377;
 }
 
 .market {
   text-align: center;
+  padding: 20px;
+  width: 350px;
 }
-.market h3 {
+.market h4 {
   color: #2b3377;
 }
+.services span {
+  font-size: 14px;
+}
+/* This is the end of Jochebed's work */
+
+/* This is the beginning of Vida's work */
 .development {
-  padding: 10px;
-  margin-top: 35px;
-  /* border: 200px; */
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
   font-family: "Nunito Sans", sans-serif;
 }
-.content {
-  display: flex;
-  justify-content: space-around;
-  width: 1000px;
-  margin: auto;
-}
 
-.two {
-  /* display:block; */
-  /* width: 400px; */
-  padding-top: 200px;
-  padding-left: 100px;
-}
 .features {
   text-align: center;
-  /* font-weight: bolder; */
-  font-size: 37px;
+  font-size: 28px;
 }
 .featuresspan {
   color: var(--yellow);
 }
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.two {
+  padding: 60px;
+}
+
+.two h3 {
+  font-size: 22px;
+  color: rgba(74, 74, 74, 1);
+}
+
 .three {
-  width: 685px;
+  /* width: 685px; */
   /* height: 152px; */
   line-height: 30px;
   letter-spacing: 0.4px;
-  font-size: large;
+  font-size: 14px;
   font-family: "Nunito Sans", sans-serif;
-}
-.two h1 {
-  font-size: 30px;
+  color: rgba(87, 87, 87, 1);
 }
 
-/* Kemi's work */
+/* This is the end of Vida's work */
+
+/* This is the beginning of Kemi's work */
 .cover {
   background: #f4f6f8;
+  width: 1200px;
+  margin-top: 100px;
+  /* margin: auto; */
 }
 
 .container {
   display: flex;
   padding: 30px;
-  gap: 30px;
+  /* gap: 30px; */
   justify-content: space-between;
-  align-items: center;
-  width: 1200px;
+  margin: auto;
+}
+
+.one {
+  width: 490px;
 }
 
 .set {
   color: #4a4a4a;
-  font-family: Nunito Sans;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 147.4%; /* 58.96px */
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
   letter-spacing: 0.8px;
-  padding-left: 80px;
-  width: 600px;
 }
 
 .line {
-  padding-left: 80px;
+  width: 55px;
 }
 
 .temp {
   color: #575757;
-  font-family: Nunito Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38px; /* 158.333% */
-  letter-spacing: 0.12px;
-  padding-left: 80px;
-  align-self: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 30px; /* 158.333% */
+  letter-spacing: 0.1px;
 }
 
 .group {
-  height: 400px;
-  width: 400px;
+  /* height: 400px; */
+  width: 500px;
   padding-left: 110px;
 }
+/* This is the end of Kemi's work */
 
 /* This is the beginning of Onoriode's work */
 .integrate {
-  /* display: flex; */
-
   text-align: center;
   color: #565656;
   font-family: "Nunito Sans" sans-serif;
@@ -370,7 +385,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-/* the view all styling */
 .button {
   align-content: center;
   border: none;
@@ -385,21 +399,18 @@ header {
   font-weight: 500;
   line-height: 120%; /* 32.994px */
 }
-/* styling of the second section */
 .section-2 {
   display: flex;
   padding-top: 30px;
   width: 1200px;
   margin: auto;
-  /* padding-left: 190px;
-  padding-right: 190px; */
 }
 
 .text-div {
   padding-top: 25px;
   padding-left: 90px;
 }
-/* h4 styling */
+
 .save-time {
   color: #4a4a4a;
   font-family: "Nunito Sans", sans-serif;
@@ -409,19 +420,19 @@ header {
   line-height: 147.4%; /* 58.96px */
   letter-spacing: 1px;
 }
-/* styling of the hr tag */
+
 .yellow {
   width: 50px;
   height: 3px;
   background: var(--yellow);
 }
-/* This is the styling for andrea image */
+
 .andrea {
   width: 430px;
   height: 430px;
   /* flex-shrink: 0; */
 }
-/* The styling of the text */
+
 .andrea-text {
   color: #575757;
   font-family: "Nunito Sans", sans-serif;
@@ -433,7 +444,7 @@ header {
 }
 /* This is the end of Onoriode's work */
 
-/* Victoria's CSS*/
+/* This is the beginning of Victoria's work */
 .main-wrapper {
   padding-top: 50px;
   background-color: #fafaff;
@@ -487,10 +498,10 @@ p {
   width: 629px;
   height: 651px;
 }
-/* End of Victoria's work*/
+/* This is the end of Victoria's work */
 
-/* Mary's work starts below */
- .g-div {
+/* This is the beginning of Mary's work */
+.g-div {
   width: 80%;
   margin: auto;
   display: flex;
@@ -507,13 +518,13 @@ p {
 
 .g-div .img-div::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 250px;
   height: 430px;
   top: -8px;
   left: -8px;
   z-index: -1;
-  background-color: #3ADAD9;
+  background-color: #3adad9;
 }
 
 .g-div .img-div img {
@@ -526,7 +537,7 @@ p {
 }
 
 .g-div .txt-div h3 {
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-family: Nunito Sans;
   font-size: 33px;
   font-style: normal;
@@ -535,12 +546,12 @@ p {
   letter-spacing: 0.8px;
 }
 
-.g-div .txt-div h3::after{
-  content: '';
+.g-div .txt-div h3::after {
+  content: "";
   width: 60px;
   height: 5px;
   display: block;
-  background-color: #FFCA1D;
+  background-color: var(--yellow);
   margin-top: 10px;
 }
 
@@ -562,7 +573,7 @@ p {
   height: 40px;
   border-radius: 8px;
   border: none;
-  background-color: #FFCA1D;
+  background-color: var(--yellow);
 }
 
 .img-txt {
@@ -574,22 +585,21 @@ p {
   position: absolute;
   right: 720px;
   margin-top: -130px;
-
 }
 
 .img-txt::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 250px;
   height: 100px;
   top: -100px;
   left: -59px;
   z-index: -1;
-  background-color:  #FFCA1D;
+  background-color: var(--yellow);
 }
 
 .img-txt p {
-  color: #3C405F;
+  color: #3c405f;
   padding: 10px;
   font-size: 18.186px;
   font-style: normal;
@@ -602,7 +612,7 @@ p {
 
 .img-txt #peter {
   display: inline;
-  color: #2D3150;
+  color: #2d3150;
   font-size: 20.186px;
   font-style: normal;
   font-weight: 600;
@@ -612,7 +622,7 @@ p {
 
 .img-txt #cs {
   display: inline;
-  color: #9C9FBB;
+  color: #9c9fbb;
   font-size: 19.186px;
   font-style: normal;
   font-weight: 400;
@@ -626,4 +636,5 @@ p {
   margin-top: 40px;
   /* position: relative; */
   z-index: -1;
-} 
+}
+/* This is the end of Mary's work */
