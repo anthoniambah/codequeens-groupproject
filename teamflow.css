@@ -255,7 +255,7 @@ header {
 
 /* This is the beginning of Vida's work */
 .development {
-  width: 1100px;
+  width: auto;
   margin: auto;
   margin-top: 100px;
   font-family: "Nunito Sans", sans-serif;
@@ -299,21 +299,21 @@ header {
 /* This is the beginning of Kemi's work */
 .cover {
   background: #f4f6f8;
-  width: 1200px;
+  width: auto;
   margin-top: 100px;
-  /* margin: auto; */
 }
 
 .container {
   display: flex;
   padding: 30px;
-  /* gap: 30px; */
-  justify-content: space-between;
+  width: 1000px;
+  justify-content: space-around;
   margin: auto;
 }
 
 .one {
   width: 490px;
+  padding-top: 70px;
 }
 
 .set {
@@ -335,90 +335,87 @@ header {
   letter-spacing: 0.1px;
 }
 
+.inner-cont {
+  width: 400px;
+}
+
 .group {
-  /* height: 400px; */
-  width: 500px;
-  padding-left: 110px;
+  width: 400px;
 }
 /* This is the end of Kemi's work */
 
 /* This is the beginning of Onoriode's work */
+.section-1 {
+  width: 1200px;
+  margin-top: 100px;
+  font-size: 28px;
+}
+
 .integrate {
   text-align: center;
+  margin: auto;
   color: #565656;
   font-family: "Nunito Sans" sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 147.4%;
   letter-spacing: 0.96px;
 }
 .p {
   color: var(--yellow);
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 147.4%; /* 70.752px */
-  letter-spacing: 0.96px;
+}
+
+.div-1 {
+  display: flex;
+  width: 750px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-around;
 }
 
 .image-dropbox {
-  height: 110px;
   width: 110px;
-  margin-top: -10px;
+  margin-top: -50px;
 }
-.div-1 {
-  padding-left: 350px;
-  padding-right: 350px;
-  display: flex;
-  gap: 2px;
-  justify-items: center;
-  justify-content: space-between;
-}
+
 .image {
   height: 80px;
 }
-.button-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.view-div {
+  width: 195px;
+  margin: auto;
 }
-.button {
-  align-content: center;
-  border: none;
+.view {
   width: 160px;
-  height: 50px;
-  border-radius: 10px;
+  padding: 8px;
+  border-radius: 7px;
   background-color: var(--yellow);
   color: #2c2c2c;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%; /* 32.994px */
+  font-size: 15px;
+  border: none;
 }
 .section-2 {
   display: flex;
+  justify-content: space-around;
   padding-top: 30px;
   width: 1200px;
   margin: auto;
 }
 
+.andrea-div {
+  width: 400px;
+}
+
 .text-div {
-  padding-top: 25px;
-  padding-left: 90px;
+  padding-top: 70px;
+  width: 500px;
+  /* padding-left: 90px; */
 }
 
 .save-time {
   color: #4a4a4a;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 147.4%; /* 58.96px */
-  letter-spacing: 1px;
+  font-size: 22px;
+  line-height: 30px; /* 158.333% */
+  letter-spacing: 0.1px;
 }
 
 .yellow {
@@ -427,379 +424,202 @@ header {
   background: var(--yellow);
 }
 
-.andrea {
-  width: 430px;
-  height: 430px;
-  /* flex-shrink: 0; */
-}
-
 .andrea-text {
   color: #575757;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38px; /* 158.333% */
-  letter-spacing: 0.8px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
 }
 /* This is the end of Onoriode's work */
 
 /* This is the beginning of Victoria's work */
 .main-wrapper {
-  padding-top: 50px;
+  margin-top: 100px;
   background-color: #fafaff;
-  width: 1882px;
-  height: 863px;
-  margin: auto;
+  width: auto;
+  height: 300px;
+  padding: 70px;
 }
 .wrapper {
-  width: 1540px;
-  height: 651px;
-
-  margin-left: 171px;
-  margin-top: 98px;
-  margin-bottom: 87px;
-  margin-right: 171px;
-  border: none;
-
-  position: absolute;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 .group-72 {
-  width: 648px;
-  height: 213px;
-  flex-shrink: 0;
-  margin-top: 219px;
+  width: 500px;
+  padding-top: 70px;
 }
 
-h3 {
+.group-72 h3 {
   color: #4a4a4a;
-  font-family: Nunito Sans;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
   letter-spacing: 0.8px;
+}
+
+.group-72 div {
+  color: #575757;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
 }
 
 .line-10 {
   margin-top: 4px;
 }
 
-p {
-  color: #575757;
-  font-size: 20px;
-  font-family: Nunito Sans;
-  font-weight: 400;
-  letter-spacing: 0.12px;
-  word-wrap: break-word;
+.image {
+  margin-top: -40px;
+  width: 500px;
 }
 
 .calendar-image {
-  float: right;
-  width: 629px;
-  height: 651px;
+  width: 380px;
 }
 /* This is the end of Victoria's work */
 
 /* This is the beginning of Mary's work */
 .g-div {
-  width: 80%;
-  margin: auto;
+  width: 1100px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-  position: relative;
+  justify-content: space-around;
+  padding-top: 80px;
+  margin: auto;
 }
 
-.g-div .img-div {
-  width: 38%;
-  position: relative;
+.img-div {
+  width: 500px;
 }
 
-.g-div .img-div::before {
-  position: absolute;
-  content: "";
-  width: 250px;
-  height: 430px;
-  top: -8px;
-  left: -8px;
-  z-index: -1;
-  background-color: #3adad9;
+.txt-div {
+  width: 500px;
+  padding-top: 70px;
 }
 
-.g-div .img-div img {
-  width: 100%;
-}
-
-.g-div .txt-div {
-  width: 40%;
-  margin-top: -8%;
-}
-
-.g-div .txt-div h3 {
+.txt-div h3 {
   color: #4a4a4a;
-  font-family: Nunito Sans;
-  font-size: 33px;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
   line-height: 147.4%; /* 58.96px */
   letter-spacing: 0.8px;
 }
 
-.g-div .txt-div h3::after {
-  content: "";
-  width: 60px;
-  height: 5px;
-  display: block;
+.txt-div hr {
+  width: 50px;
+  height: 3px;
   background-color: var(--yellow);
-  margin-top: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 0px;
 }
 
-.g-div .txt-div p {
+.txt-div div {
   color: #575757;
-  font-family: Nunito Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
   line-height: 32px; /* 158.333% */
   letter-spacing: 0.12px;
-  width: 520px;
   padding-top: 15px;
 }
 
-.g-div .txt-div button {
+.txt-div button {
+  font-family: "Nunito Sans", sans-serif;
   margin-top: 20px;
-  width: 25%;
-  height: 40px;
+  width: 130px;
+  padding: 12px;
+  /* height: 40px; */
   border-radius: 8px;
   border: none;
   background-color: var(--yellow);
 }
-
-.img-txt {
-  width: 380px;
-  height: 200px;
-  border-radius: 19.146px;
-  background: #fff;
-  box-shadow: 0px 89.76104px 145.86169px 0px rgba(0, 0, 0, 0.05);
-  position: absolute;
-  right: 720px;
-  margin-top: -130px;
-}
-
-.img-txt::before {
-  position: absolute;
-  content: "";
-  width: 250px;
-  height: 100px;
-  top: -100px;
-  left: -59px;
-  z-index: -1;
-  background-color: var(--yellow);
-}
-
-.img-txt p {
-  color: #3c405f;
-  padding: 10px;
-  font-size: 18.186px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.404px;
-  width: 340px;
-  padding: 20px;
-}
-
-.img-txt #peter {
-  display: inline;
-  color: #2d3150;
-  font-size: 20.186px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 160.687%; /* 32.437px */
-  letter-spacing: 0.404px;
-}
-
-.img-txt #cs {
-  display: inline;
-  color: #9c9fbb;
-  font-size: 19.186px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160.687%; /* 32.437px */
-  letter-spacing: 0.404px;
-}
-
-.svg-img {
-  width: 320px;
-  margin: auto;
-  margin-top: 40px;
-  /* position: relative; */
-  z-index: -1;
-}
 /* This is the end of Mary's work */
 
 /* This is the beginning of Sumayyah's work */
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  
-} */
-
-.newsletter{
- background-color: #FAFAFF;
- width: 100%;
- height: 483px;
- text-align: center;
- justify-content: center;
- padding: 70px 70px 0;
+.newsletter {
+  background-color: #fafaff;
+  width: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.brand{
+#support {
+  color: rgba(235, 128, 29, 1);
+  font-size: 22px;
   text-align: center;
-  font-family: Nunito Sans;
-  font-style: normal;
-  line-height: 147.4%; /* 35.376px */
-  font-style: normal;
+  letter-spacing: 0.48px;
 }
 
-#support{
-  color: #EB801D;
- font-size: 24px;
- font-weight: 700;
- letter-spacing: 0.48px;
-}
-
-.Subscribe{
-  color: #2D3150;
-  font-size: 40px;
-  font-weight: 700;
+.subscribe {
+  color: #2d3150;
+  font-size: 26px;
+  text-align: center;
   letter-spacing: 0.8px;
 }
 
-#News{
-  color: #2D3150;
-  font-size: 36px;
-  font-weight: 300;
+#news {
+  color: #2d3150;
+  font-size: 26px;
+  text-align: center;
   letter-spacing: 0.72px;
 }
 
 .relative {
-  position: relative;
   width: 500px;
-  margin: 0 auto;
-  border-radius: 20px;
-  background: #FFF;
-  box-shadow: 0px 10px 20px 0px rgba(54, 58, 120, 0.10);
+  margin: auto;
 }
 
-.absolute {
-  position: absolute;
-  right: -15px;
-  top: 49%;
-  transform: translate(-18px, -28px);
-}
-
-
-#email-field{
-  padding: 8px 12px;
-    border-radius: 13px;
-    border: 0;
-    width: 100%;
-    height: 55px;
-  }
-
-  .email-field:focus-visible {
-      outline: 1px solid #d3d3d3;
-  }
-
-.button{
-  display: inline-block;
-    color: #fff;
-    border: 0;
-    text-align: center;
-    cursor: pointer;
-    padding: 11px 16px;
-    font-size: 20px;
-          border-radius: 20px;
-          background: #686DF1;
-}
-
-
-.lastpage{
-  width: 80%;
-  height: 100%;
-  padding: 40px 32px 0;
+.lastpage {
+  font-family: "Nunito Sans", sans-serif;
+  width: auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  margin-top: 100px;
 }
 
-.head{
+.head {
   flex-direction: column;
-  width: 900px;
-  align-self: start;
-}
-
-#the-address{
-  color: #5C5E87;
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.main{
-  width: 100px;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  
-
+  width: 320px;
+  color: rgba(92, 94, 135, 1);
+  font-size: 17px;
 }
 
- 
-li{
+#the-address {
+  color: #5c5e87;
+  font-size: 17px;
+}
+
+.head-bold {
+  font-size: 19px;
+}
+
+.head-image {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main li {
   list-style-type: none;
-  color: #5C5E87;
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  color: #5c5e87;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
   line-break: 10px;
-  margin-bottom: 1rem;
-  width: 250px;
+  margin-bottom: 15px;
 }
 
-h4{
-  color: #2B3377;
-  font-family: Poppins;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+.main strong {
+  color: #2b3377;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
 }
-
-/*@media only screen and (max-width: 600px) {
-  .newsletter {
-      padding: 16px 16px 0;
-  }
-  .relative {
-      width: 350px;
-  }
-  .head {
-      flex: 1;
-  }
-}*/
-
-
-
-
-
+/* This is the end of Sumayyah's work */
